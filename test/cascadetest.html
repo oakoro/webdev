@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            
+            border: 10px solid purple;
+            background-color: blue ; 
+            padding: 10px;
+            
+        }
+        .yellow{
+            color: yellow;
+        }
+        .white{
+            
+            background-color: red;
+            color: white;
+            
+            
+        }
+        .outer>.yellow{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer" >
+        <div class="yellow" >
+            <p>Yellow Text</p>
+
+        </div>
+        <div class="white">
+            <p>White Text</p>
+        </div>
+        <div class="yellow">
+            <p>Yellow Text</p>
+
+        </div>
+        <div class="white">
+            <p>White Text</p>
+        </div>
+
+    </div>
+    
+</body>
+</html>

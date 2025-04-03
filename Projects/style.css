@@ -1,0 +1,43 @@
+
+body{
+  background-color: antiquewhite;
+  border: 0px;
+  padding: 0px;
+}
+
+#googletext {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 48px;
+    
+  }
+
+  .lead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 24px;
+  }
+
+ 
+  .topimage{
+    height: 200px;
+    width: 500px;
+  }
+  .container{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+   margin-top: 250px;
+  
+    
+  }
+
+ .profileimage{
+  height: 200px;
+  margin-top: 200px;
+  border-radius: 70%;
+ }
+
+ .d-block {
+  border-radius: 100%;
+ }

@@ -1,0 +1,21 @@
+**Colour theory - right pallette for your website. consistent with message.
+combining colour - keep to logos, diagram
+*Adobe colour
+*Colorhunt.co
+**Typography - Fonts matters. Mood and combinations. type facesReadability, legibility impt. Keep to 2 fonts in a design, similar moods,
+serif: more serious and assertive, older,traditional, stable, authoritative.
+Crimson 
+**User interface design - 
+Layout - 40 - 60 characters per line
+Size - 
+Alignment - Positioning of elements
+White space - empty spaces on your webpage
+Audience - What appeals to them. hierarchy,layout, aalignment, white spaing and audience
+**user experience:
+simplicity
+Consistency  - design and function
+screen adaptability
+don't use your powers of evil - based on personal experience
+
+Daily UI - Daily web design task
+

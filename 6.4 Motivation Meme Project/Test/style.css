@@ -1,0 +1,21 @@
+
+
+
+#poster-boy {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(91, 140, 183);
+    text-align: center;
+  }
+  .my_image{
+    border: 20px solid black;
+    padding: 10px ;
+    margin: 20px;
+  }
+
+
+ html{
+    background-color:khaki;
+ }

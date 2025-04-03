@@ -1,0 +1,5 @@
+.btn-group-vertical{
+    display: flex;
+    justify-content:left;
+    align-items:start;
+}

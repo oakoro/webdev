@@ -1,0 +1,72 @@
+Bootstrap Layout
+12 Column System: 3 components
+*Div that has a class of container - starting point
+*Inside container div, is a another div with class row
+*Inside the row we have the items layed out using the column System
+
+Code:
+<div> class="container">
+    <div class=" row">
+        <div class="col">Hello</div>
+    </div>
+</div>
+
+Each row has 12 columns
+
+Bootstrap container allocate different size on different screens
+different breakpoint:
+Extra snall, small, medium, large, x-large, <xx-large></xx-large>
+.container, container-sm, container-md, container-lg, container-xl, container-xxl, <container-fluid></container-fluid>
+sizes refers to width of the view point - horizontal width
+
+container-fluid - on all screen size use 100% view point - edge to edge
+mostly used - .container and container-fluid
+
+class can be called col-2, col-4, col-6 etc
+col-2 = use 2 columns
+col-4 = use 4 columns
+col-6 = use 6 columns
+
+predefined breakpoint based on common screen sizes
+breakpoint      Class infix     Dimensions
+extra-small     None            <576px
+small           sm              >=576px - Mobile
+medium          md              >=768px - ipad
+large           lg              >=992px - laptop
+x-large         xl              >=1200px - desktop
+xx-large        xxl             >=1400px - TV etc
+
+
+example
+col-sm-2 for screen greater than 576px dimension (576px - 768px)
+
+@media query is not required
+
+col-sm-2    col-sm-4   col-sm-6 
+=> on small screen and above dim will be 2,4,and 6 but on smaller screen default to 100%
+
+if cols are not assigned numbers, it will automatically distribute
+example:
+col-sm  col-sm col-sm => automatically distribute to 4 each.
+
+On a device smaller than 576px dimension, all col defaults to 100% of the width
+
+On a single div, we can have multiple breakpoint:
+col-sm-12 col-md-8 col-lg-4 
+==> On a large device and above, take 4 out of 12 columns of the width
+==> On medium device, take 8/12 of the width
+==> On small device, take 12/12 of the width- Full width
+
+Mix and Match sizes
+col-2   col-4   col 
+==> 2/12 4/12 adjust as appropriate
+
+components
+Button
+Card 
+Nav-bar 
+
+
+
+
+

@@ -1,0 +1,31 @@
+/**Create directory */
+
+/**Create index.js file */
+
+/**Initialise NPM */
+npm init -y 
+
+/**Install NPM package */
+npm i express
+
+/**Write Server application in index.js */
+import express from "express"
+
+const app = express()
+const port = 3000
+
+/**Load home page */
+app.get("/", (req, res) {
+    res.send("Hello, World")
+})
+
+
+app.listen(port, (callback function) => {
+    console.log("Server running on port")
+})
+
+
+/**Start the server */
+node index.js
+or
+nodemon index.js

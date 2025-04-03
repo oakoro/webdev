@@ -1,0 +1,80 @@
+Version control
+===============
+initialise git
+git init
+
+see hidden files
+ls -a
+
+add file to staging area
+check staging area
+git status
+
+add to staging dir
+git add <file name>
+
+for multiple files
+git add .
+
+check status
+git status => file now in staging area, all green and ready to be committed
+
+commit file
+git commit -m "first commit" => -m to add commit message
+
+check commit message
+git log
+
+
+rollback
+git checkout
+
+
+git diff
+
+
+============
+Push changes to github
+
+create repository
+
+git remote add origin <repository url>
+
+git push -u origin main
+git push -u origin HEAD:main
+
+git rm --cached -r . =>removes everything from the staging folder -r for recursive
+
+
+===========
+git clone - pull down all of a versions and all of commits of a particular remote repository
+git clone url
+
+
+==========
+Branching and merging
+git log
+
+create new branch
+git branch <branchName>
+git branch --- Check branch name
+
+switch branch
+git checkout <newBranch>
+
+
+apply changes
+git add
+git commit
+
+Working Directory => Staging Area => Local Repository => Remote Repository
+
+Forking => copy of remote repository
+clone => Pull down all of the version to local work environment
+
+
+Pull request - request to merge changes
+Merge - merge changes to original branch
+
+
+

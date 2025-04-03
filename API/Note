@@ -1,0 +1,37 @@
+JSON Vs JS Object
+
+JSON
+Used for data transfer
+In json: Every key is a string but values can be anything
+"name":"Jack",
+"Age": 48
+"education: [
+    {
+        "degree": "BA",
+        "uni": "UCLA"
+    },
+    {
+        "degree": "MSC",
+        "uni": "Liverpool"
+    }
+]
+
+JS Object
+Can be interpreted by editor and by code interpreter.
+
+
+JS Script                              JSON
+const wardrobe = {
+    doors: 2,                  
+    drawers: 2,                     {"doors": 2,"drawers": 2, "colour": "red"}
+    colour: "red",
+};
+
+To serialise a javascript object to json=>
+
+    const jsonData = JSON.stringify(data)
+
+Convert JSON to JS object =>
+
+    const data = JSON.parse(jsonData)
+
