@@ -1,5 +1,5 @@
 import express from "express";
-import bodyParser, { json } from "body-parser";
+import bodyParser from "body-parser";
 
 const app = express();
 const port = 3000;
@@ -22,13 +22,13 @@ app.post("/recipe", (req, res) => {
   switch (req.body.choice) {
     case "chicken":
       data = JSON.parse(recipeJSON)[0];
-      break
+      break;
     case "beef":
       data = JSON.parse(recipeJSON)[1];
-      break
+      break;
     case "fish":
       data = JSON.parse(recipeJSON)[2];
-      break
+      break;
     default:
       break;
   }
