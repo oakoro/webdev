@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForEachLoop</title>
+</head>
+<body>
+   <%   comments.forEach(function(comment) {%>
+        <p><strong><%=   comment.author %></strong></p>
+        <label style="background-color: bisque;"><%=   comment.author %></label>
+        <input type="text" value=" <%=  comment.content  %> "/>
+        <p><%=  comment.content  %></p>
+   <%   }    )%>
+    
+</body>
+</html>

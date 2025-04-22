@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foorm</title>
+    <link href="./form.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Let's find something for you to do</h1>
+    <div id="main">
+    <form action="/" method="post">
+        <div class="container">
+            <select class="random">
+                <option value="">Random type</option>
+                <option value="education">Education</option>
+                <option value="charity">Charity</option>
+                <option value="relaxation">Relaxation</option>
+                <option value="busywork">Busywork</option>
+                <option value="diy">DIY</option>
+                <option value="social">Social</option>
+                <option value="music">Music</option>
+            </select>
+            <select class="people">
+                <option>Number of People</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <button type="submit" class="submit">Go</button>
+            <!-- <div class="text">
+                <textarea></textarea>
+            </div>
+            <div class="selected">
+                <label>Random Type<input type="text" value=/></label>
+                <label>Partitcipants<input type="text"/></label>
+            </div> -->
+        </div>
+    </div>
+    </form>
+    <!-- <section id="card">
+    <article class="card-item"> 
+        <h2>Show activity</h2>
+        <span>Show activity type</span>
+        <span>Show participants number</span>
+    </article>
+   
+</section> -->
+<section id="cards" class="cards">
+    <% if (locals.data) { %>
+
+    <article class="card-item">
+      <h2 class="card-activity">
+        <!-- Show Activity -->
+         <%= data.activity %>
+      </h2>
+      <div class="card-info">
+        <span class="card-type">
+          <!-- Show Activity type -->
+           <%= data.type %>
+        </span>
+        <span class="card-participants">
+          <!-- participants: Show participant number -->
+           participants: <%= data.participants %>
+          <span class="card-number"></span>
+        </span>
+      </div>
+    </article>
+
+
+    <div id="tag-error" class="tag-error">
+      <!-- Show any errors that were sent from the backend -->
+       <%= error %>
+    </div>
+<% } %>
+  </section>
+</body>
+</html>
