@@ -1,3 +1,0 @@
-Hello from Node Js
-
-What's up eh

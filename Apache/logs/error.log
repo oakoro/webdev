@@ -3884,3 +3884,31 @@ Apache server interrupted...
 [Wed Apr 09 20:28:13.905844 2025] [core:notice] [pid 5188:tid 532] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
 [Wed Apr 09 20:28:13.907884 2025] [mpm_winnt:notice] [pid 5188:tid 532] AH00418: Parent: Created child process 7640
 [Wed Apr 09 20:28:15.985413 2025] [mpm_winnt:notice] [pid 7640:tid 628] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 24 19:43:20.972736 2025] [mpm_winnt:notice] [pid 5188:tid 532] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 24 19:43:23.016678 2025] [mpm_winnt:notice] [pid 7640:tid 628] AH00364: Child: All worker threads have exited.
+[Thu Apr 24 19:43:23.141676 2025] [mpm_winnt:notice] [pid 5188:tid 532] AH00430: Parent: Child process 7640 exited successfully.
+[Thu Apr 24 19:44:14.073433 2025] [mpm_winnt:notice] [pid 5208:tid 456] AH00455: Apache/2.4.41 (Win64) PHP/7.3.8 configured -- resuming normal operations
+[Thu Apr 24 19:44:14.073433 2025] [mpm_winnt:notice] [pid 5208:tid 456] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu Apr 24 19:44:14.073433 2025] [core:notice] [pid 5208:tid 456] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
+[Thu Apr 24 19:44:14.075906 2025] [mpm_winnt:notice] [pid 5208:tid 456] AH00418: Parent: Created child process 7636
+[Thu Apr 24 19:44:16.052668 2025] [mpm_winnt:notice] [pid 7636:tid 576] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 25 11:29:30.115742 2025] [mpm_winnt:notice] [pid 5208:tid 456] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 25 11:29:32.144055 2025] [mpm_winnt:notice] [pid 7636:tid 576] AH00364: Child: All worker threads have exited.
+[Fri Apr 25 11:29:32.252908 2025] [mpm_winnt:notice] [pid 5208:tid 456] AH00430: Parent: Child process 7636 exited successfully.
+[Fri Apr 25 11:30:11.504158 2025] [mpm_winnt:notice] [pid 4940:tid 564] AH00455: Apache/2.4.41 (Win64) PHP/7.3.8 configured -- resuming normal operations
+[Fri Apr 25 11:30:11.504158 2025] [mpm_winnt:notice] [pid 4940:tid 564] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Apr 25 11:30:11.504158 2025] [core:notice] [pid 4940:tid 564] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
+[Fri Apr 25 11:30:11.506280 2025] [mpm_winnt:notice] [pid 4940:tid 564] AH00418: Parent: Created child process 7780
+[Fri Apr 25 11:30:13.583719 2025] [mpm_winnt:notice] [pid 7780:tid 652] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 25 11:31:32.182780 2025] [core:warn] [pid 4104:tid 616] AH00098: pid file C:/IT/WebDev/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 25 11:31:32.206668 2025] [mpm_winnt:notice] [pid 4104:tid 616] AH00455: Apache/2.4.41 (Win64) PHP/7.3.8 configured -- resuming normal operations
+[Fri Apr 25 11:31:32.207671 2025] [mpm_winnt:notice] [pid 4104:tid 616] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Fri Apr 25 11:31:32.207671 2025] [core:notice] [pid 4104:tid 616] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
+[Fri Apr 25 11:31:32.209534 2025] [mpm_winnt:notice] [pid 4104:tid 616] AH00418: Parent: Created child process 7724
+[Fri Apr 25 11:31:33.694183 2025] [mpm_winnt:notice] [pid 7724:tid 580] AH00354: Child: Starting 64 worker threads.
+[Thu May 01 23:42:00.418681 2025] [core:warn] [pid 5776:tid 628] AH00098: pid file C:/IT/WebDev/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 01 23:42:00.449480 2025] [mpm_winnt:notice] [pid 5776:tid 628] AH00455: Apache/2.4.41 (Win64) PHP/7.3.8 configured -- resuming normal operations
+[Thu May 01 23:42:00.449480 2025] [mpm_winnt:notice] [pid 5776:tid 628] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Thu May 01 23:42:00.449480 2025] [core:notice] [pid 5776:tid 628] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
+[Thu May 01 23:42:00.451528 2025] [mpm_winnt:notice] [pid 5776:tid 628] AH00418: Parent: Created child process 6356
+[Thu May 01 23:42:03.245803 2025] [mpm_winnt:notice] [pid 6356:tid 708] AH00354: Child: Starting 64 worker threads.
