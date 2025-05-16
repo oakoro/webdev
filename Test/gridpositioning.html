@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GridPosition</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: repeat(3, 1fr);
+            height: 100vh;
+            gap: 3rem;
+         
+        
+
+        }
+        .item{
+            background-color: purple;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+        }
+
+        img{
+            height: 200px;
+        }
+        .cowboy{
+            background-color: blue;
+            grid-row: span 2;
+            
+        }
+        .astronaut{
+            background-color: green;
+            order: 0;
+            
+        }
+        .professor{
+            grid-column: span 2;
+        }
+        .technologist{
+            background-color: red;
+            order: 1;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item professor">Professor 
+            <img src="../Motivation/oke_new.png">
+        </div>
+        <div class="item cowboy">Cowboy 
+            <img src="../images/david_img.png">
+        </div>
+        <div class="item astronaut">Astronaut 
+            <img src="../images/jo.png">
+        </div>
+        <div class="item technologist">Technologist 
+            <img src="../images/mum.png">
+        </div>
+        
+    </div>
+    
+</body>
+</html>

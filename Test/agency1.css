@@ -1,0 +1,56 @@
+body{
+   
+  font-family: "Staatliches", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 50px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main{
+    flex: 1;
+}
+h1{
+    font-size: 5rem;
+}
+footer{
+    text-align: right;
+    color: midnightblue;
+}
+.tile-image{
+    height: 200px;
+    margin-right: 50px;
+    float: left;
+}
+.card{
+    width: 45%;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+@media (max-width) {
+    .logo{
+        width: 100px;
+    }
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .card img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}

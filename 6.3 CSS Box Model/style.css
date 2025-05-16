@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+
+#indianred{
+    background-color: indianred;
+    border: 10px solid black;
+    margin-left: 30px ;
+    
+}
+#sec{
+    background-color: gold;
+    border:  solid black;
+    border-width: 20px 10px;
+    
+    margin-left: 250px;
+    
+}
+#cadetblue{
+    background-color: cadetblue;
+    padding: 20px;
+    border:10px solid black;
+    
+
+}
+.cadetblue p {
+    margin: 0px;
+}
