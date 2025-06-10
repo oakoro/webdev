@@ -3932,3 +3932,17 @@ Apache server interrupted...
 [Wed May 14 11:18:36.792047 2025] [core:notice] [pid 5236:tid 708] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
 [Wed May 14 11:18:36.794545 2025] [mpm_winnt:notice] [pid 5236:tid 708] AH00418: Parent: Created child process 7832
 [Wed May 14 11:18:38.151274 2025] [mpm_winnt:notice] [pid 7832:tid 632] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 02 20:56:26.967294 2025] [mpm_winnt:notice] [pid 5236:tid 708] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Jun 02 20:56:29.086472 2025] [mpm_winnt:notice] [pid 7832:tid 632] AH00364: Child: All worker threads have exited.
+[Mon Jun 02 20:56:29.258347 2025] [mpm_winnt:notice] [pid 5236:tid 708] AH00430: Parent: Child process 7832 exited successfully.
+[Mon Jun 02 20:57:15.859162 2025] [mpm_winnt:notice] [pid 5384:tid 704] AH00455: Apache/2.4.41 (Win64) PHP/7.3.8 configured -- resuming normal operations
+[Mon Jun 02 20:57:15.859162 2025] [mpm_winnt:notice] [pid 5384:tid 704] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Jun 02 20:57:15.859162 2025] [core:notice] [pid 5384:tid 704] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
+[Mon Jun 02 20:57:15.861162 2025] [mpm_winnt:notice] [pid 5384:tid 704] AH00418: Parent: Created child process 7988
+[Mon Jun 02 20:57:17.374763 2025] [mpm_winnt:notice] [pid 7988:tid 472] AH00354: Child: Starting 64 worker threads.
+[Mon Jun 02 20:58:42.473742 2025] [core:warn] [pid 5208:tid 540] AH00098: pid file C:/IT/WebDev/Apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jun 02 20:58:42.495971 2025] [mpm_winnt:notice] [pid 5208:tid 540] AH00455: Apache/2.4.41 (Win64) PHP/7.3.8 configured -- resuming normal operations
+[Mon Jun 02 20:58:42.495971 2025] [mpm_winnt:notice] [pid 5208:tid 540] AH00456: Apache Lounge VS16 Server built: Aug  9 2019 16:46:32
+[Mon Jun 02 20:58:42.495971 2025] [core:notice] [pid 5208:tid 540] AH00094: Command line: 'C:\\IT\\WebDev\\Apache\\bin\\httpd.exe -d C:/IT/WebDev/Apache'
+[Mon Jun 02 20:58:42.497526 2025] [mpm_winnt:notice] [pid 5208:tid 540] AH00418: Parent: Created child process 8024
+[Mon Jun 02 20:58:44.235213 2025] [mpm_winnt:notice] [pid 8024:tid 696] AH00354: Child: Starting 64 worker threads.

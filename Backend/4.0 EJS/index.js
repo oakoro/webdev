@@ -1,38 +1,28 @@
-import express from "express";
+import express from "express"
 
+const port = 3000
 const app = express();
-const port = 3000;
-// const d = new Date;
 
-
-// let dayOfWeek = d.getDay()
-
-
-// const dayNames = ["Sunday","Monday"]
-
-// if (dayOfWeek != 0 || dayOfWeek != 6) {
-//     alert("Hey! It's a weekday, it's time to work hard!")
-// } else {
-//     alert("Hey! It's the weekend, it's time to have fun!")
-// }
-app.get("/", (req, res) => {
-    const today = new Date // for test ("March 30, 2025 12:00");
+app.get("/",(req,res) => {
+    const today = new Date();
     const day = today.getDay();
+   console.log(day);
 
-    // console.log(day);
-    let type = "a weekday";
-    let adv = "It's time to work hard"
-
-    if (day === 0 || day === 6) {
-        type = "the weekend";
-        adv = "It's time to have fun"
+   let type = "a weekday"
+   let adv = "It's time to work hard"
+   if (day === 0 || day === 6) {
+        type = "a weekend"
+        adv = "It's time to have some fun"
+   } 
+   res.render("index.ejs",
+    {dayType: type,
+     advice: adv,
     }
+   ) 
+})
 
-    res.render("index.ejs", {
-        dayType: type, 
-        advice: adv})
-});
 
-app.listen(port,  () => {
-    console.log('server running on port '+port)
-});
+
+app.listen(port,() => {
+    console.log(`Listening on port ${port}`)
+})
